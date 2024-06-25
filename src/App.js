@@ -1,21 +1,6 @@
-import logo from './logo.svg';
 import './App.css';
-import { BrowserRouter, Routes , Route } from 'react-router-dom';
 
-const Sobre = () => <h1>Sobre</h1>;
-
-const App  = () => {
-  return (
-    <BrowserRouter>
-      <Routes >
-        <Route exact path="/" component={() => <Home />} />
-        <Route path="/sobre" component={() => <Sobre />} />
-      </Routes>
-    </BrowserRouter>
-  );
-};
-
-function Home() {
+function App() {
   return (
     <div className="App">
       <header className="App-header">
