@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/michaelsss16/cursocanto/static/css/main.f855e6bc.css",
-    "main.js": "/michaelsss16/cursocanto/static/js/main.063fb39f.js",
-    "static/js/453.754a153c.chunk.js": "/michaelsss16/cursocanto/static/js/453.754a153c.chunk.js",
-    "index.html": "/michaelsss16/cursocanto/index.html",
-    "main.f855e6bc.css.map": "/michaelsss16/cursocanto/static/css/main.f855e6bc.css.map",
-    "main.063fb39f.js.map": "/michaelsss16/cursocanto/static/js/main.063fb39f.js.map",
-    "453.754a153c.chunk.js.map": "/michaelsss16/cursocanto/static/js/453.754a153c.chunk.js.map"
+    "main.css": "/cursocanto/static/css/main.f855e6bc.css",
+    "main.js": "/cursocanto/static/js/main.ab0a8828.js",
+    "static/js/453.754a153c.chunk.js": "/cursocanto/static/js/453.754a153c.chunk.js",
+    "index.html": "/cursocanto/index.html",
+    "main.f855e6bc.css.map": "/cursocanto/static/css/main.f855e6bc.css.map",
+    "main.ab0a8828.js.map": "/cursocanto/static/js/main.ab0a8828.js.map",
+    "453.754a153c.chunk.js.map": "/cursocanto/static/js/453.754a153c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f855e6bc.css",
-    "static/js/main.063fb39f.js"
+    "static/js/main.ab0a8828.js"
   ]
 }
