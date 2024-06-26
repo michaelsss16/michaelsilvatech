@@ -1,12 +1,17 @@
-import './App.css';
+import './index.css';
+import Home from './pages/Home.js';
+
+
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Curso de canto</h1>
-        <p>Teste de publicacao</p>
+        <title>Curso de canto</title>
       </header>
+      <body>
+      <Home />
+      </body>
     </div>
   );
 }

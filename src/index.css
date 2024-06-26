@@ -1,13 +1,97 @@
+/* Normalizar as margens e o preenchimento do body */
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  background-color: lightgray;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Remover as margens e o preenchimento padrão dos elementos */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Remover as listas com marcadores padrão */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Remover o estilo padrão dos links */
+a {
+  text-decoration: none;
+}
+
+/* Remover o estilo padrão das imagens */
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Redefinir a fonte padrão para elementos HTML */
+html {
+  font-family: sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Redefinir as cores padrão dos links */
+a {
+  color: inherit;
+}
+
+/* Redefinir os estilos de cabeçalho */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-weight: normal;
+}
+
+/* Redefinir os estilos de parágrafo */
+p {
+  margin: 0;
+}
+
+/* Redefinir os estilos de lista */
+li {
+  margin: 0;
+}
+
+/* Redefinir os estilos de tabela */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+/* Redefinir os estilos de células da tabela */
+th,
+td {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+/* Redefinir os estilos de formulários */
+input,
+textarea,
+select {
+  margin: 0;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Redefinir os estilos de botões */
+button {
+  margin: 0;
+  padding: 0.5rem 1rem;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  background-color: #eee;
+  color: #333;
 }
