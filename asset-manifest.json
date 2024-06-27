@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/cursocanto/static/css/main.eaea3c7d.css",
-    "main.js": "/cursocanto/static/js/main.4225fe85.js",
+    "main.js": "/cursocanto/static/js/main.df298438.js",
     "static/media/em80.mp3": "/cursocanto/static/media/em80.aa42e35d1591eaae97ab.mp3",
     "static/media/em120.mp3": "/cursocanto/static/media/em120.70b6401bbf7501730a84.mp3",
     "static/media/em200.mp3": "/cursocanto/static/media/em200.a3c901219cea09945068.mp3",
     "index.html": "/cursocanto/index.html",
     "main.eaea3c7d.css.map": "/cursocanto/static/css/main.eaea3c7d.css.map",
-    "main.4225fe85.js.map": "/cursocanto/static/js/main.4225fe85.js.map"
+    "main.df298438.js.map": "/cursocanto/static/js/main.df298438.js.map"
   },
   "entrypoints": [
     "static/css/main.eaea3c7d.css",
-    "static/js/main.4225fe85.js"
+    "static/js/main.df298438.js"
   ]
 }
