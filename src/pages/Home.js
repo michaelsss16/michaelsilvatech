@@ -5,7 +5,6 @@ import escalaMaiorRapido from '../audios/em200.mp3';
 function Home() {
 	return (
 		<div>
-			<h1>Curso de canto - Michael</h1>
 			<h2>Aquecimento vocal</h2>
 
 			<h3>Porque fazer o aquecimento vocal?</h3>

@@ -1,18 +1,13 @@
 import './index.css';
 import Home from './pages/Home.js';
-
-
+import BarraNavegacao from './components/BarraNavegacao.js';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <title>Curso de canto</title>
-      </header>
       <body>
+    <BarraNavegacao />
       <Home />
       </body>
-    </div>
   );
 }
 
