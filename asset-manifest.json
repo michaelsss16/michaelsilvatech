@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/cursocanto/static/css/main.eaea3c7d.css",
-    "main.js": "/cursocanto/static/js/main.8a547f3f.js",
+    "main.js": "/cursocanto/static/js/main.21fd0b91.js",
     "index.html": "/cursocanto/index.html",
     "main.eaea3c7d.css.map": "/cursocanto/static/css/main.eaea3c7d.css.map",
-    "main.8a547f3f.js.map": "/cursocanto/static/js/main.8a547f3f.js.map"
+    "main.21fd0b91.js.map": "/cursocanto/static/js/main.21fd0b91.js.map"
   },
   "entrypoints": [
     "static/css/main.eaea3c7d.css",
-    "static/js/main.8a547f3f.js"
+    "static/js/main.21fd0b91.js"
   ]
 }
