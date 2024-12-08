@@ -1,6 +1,15 @@
 # Documentação - Projeto Curso de canto 
 
 ## Objetivo 
+Destina-se a apresentar todos os conteúdos, e adicionais, do canal Michael Silva Tech. Contém artigos sobre acessibilidade, tecnologia e programação. 
+
+## Para executar o projeto:
+
+1. Clonar repositório:'https://github.com/michaelsss16/michaelsilvatech'
+2. Instalar dependências: 'npm install'
+3.  Executar localmente: 'npm start'
+4.  Realizar deploy da aplicação: 'npm deploy'
+
 ## Estrutura de pastas
 
 -  components: abriga todos os componentes reutilizáveis do projeto;

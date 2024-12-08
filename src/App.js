@@ -29,7 +29,7 @@ export default function App() {
       <nav className="navbar navbar-light">
         <ul className="nav navbar-nav">
           <li>
-            <Link to="/cursocanto">Página Inicial</Link>
+            <Link to="/michaelsilvatech">Página Inicial</Link>
           </li>
           <li>
             <Link to="/categoria">Categorias</Link>
@@ -41,7 +41,7 @@ export default function App() {
       </nav>
 
       <Routes>
-        <Route path="/cursocanto" element={<PaginaInicial />} />
+        <Route path="/michaelsilvatech" element={<PaginaInicial />} />
         <Route path="/categoria" element={<Categoria />} />
 
         <Route path="/artigos" element={<Artigos />} />
