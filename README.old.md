@@ -1,2 +1,0 @@
-# cursocanto
-Plataforma de canto

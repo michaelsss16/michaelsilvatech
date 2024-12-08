@@ -2,7 +2,7 @@ import escalaMaiorLento from '../audios/em80.mp3';
 import escalaMaiorNormal from '../audios/em120.mp3';
 import escalaMaiorRapido from '../audios/em200.mp3';
 
-function Home() {
+function Aquecimentos() {
 	return (
 		<div>
 			<h2>Aquecimento vocal</h2>
@@ -33,4 +33,4 @@ function Home() {
 	);
 }
 
-export default Home;
+export default Aquecimentos;
