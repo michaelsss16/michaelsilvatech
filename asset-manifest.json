@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/mstech/static/css/main.eaea3c7d.css",
-    "main.js": "/mstech/static/js/main.21fd0b91.js",
-    "index.html": "/mstech/index.html",
-    "main.eaea3c7d.css.map": "/mstech/static/css/main.eaea3c7d.css.map",
-    "main.21fd0b91.js.map": "/mstech/static/js/main.21fd0b91.js.map"
+    "main.css": "/michaelsilvatech/static/css/main.eaea3c7d.css",
+    "main.js": "/michaelsilvatech/static/js/main.01a6c550.js",
+    "index.html": "/michaelsilvatech/index.html",
+    "main.eaea3c7d.css.map": "/michaelsilvatech/static/css/main.eaea3c7d.css.map",
+    "main.01a6c550.js.map": "/michaelsilvatech/static/js/main.01a6c550.js.map"
   },
   "entrypoints": [
     "static/css/main.eaea3c7d.css",
-    "static/js/main.21fd0b91.js"
+    "static/js/main.01a6c550.js"
   ]
 }
