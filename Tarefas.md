@@ -4,3 +4,4 @@
 -    Adicionar e configurar barra de navegação 
 -   Rotas em componente separado 
 -   Definição de footer 
+-   Alterar descrição no repositório 

@@ -2,7 +2,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: lightgray;
+  background-color: #f9f9f9; /* Cinza claríssimo */
 }
 
 /* Remover as margens e o preenchimento padrão dos elementos */
@@ -18,9 +18,10 @@ ol {
   list-style: none;
 }
 
-/* Remover o estilo padrão dos links */
+/* Estilizar os links */
 a {
   text-decoration: none;
+  color: #003366; /* Azul escuro */
 }
 
 /* Remover o estilo padrão das imagens */
@@ -36,11 +37,6 @@ html {
   -webkit-font-smoothing: antialiased;
 }
 
-/* Redefinir as cores padrão dos links */
-a {
-  color: inherit;
-}
-
 /* Redefinir os estilos de cabeçalho */
 h1,
 h2,
@@ -50,11 +46,13 @@ h5,
 h6 {
   margin: 0;
   font-weight: normal;
+  text-align: center; /* Centralizar títulos */
 }
 
-/* Redefinir os estilos de parágrafo */
+/* Estilizar os parágrafos */
 p {
   margin: 0;
+  text-align: justify; /* Justificar os parágrafos */
 }
 
 /* Redefinir os estilos de lista */
