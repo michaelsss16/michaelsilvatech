@@ -16,10 +16,16 @@ function PaginaInicial() {
 				<iframe width="560" height="315" src="https://www.youtube.com/embed/tEhtRjrKBQQ?si=tuJtd9vT0QaJ7Nwe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 			</div>
 
-			<h2> Power Shell</h2>
-			<p>Aprenda a trabalhar com o Windows Power Shell para tornar a programação mais eficiente e robusta, com o leitor de tela NVDA.</p>
-			<Link to="/artigos/powershell">PowerShell</Link>
+			<div>
+				<h2> Power Shell</h2>
+				<p>Aprenda a trabalhar com o Windows Power Shell para tornar a programação mais eficiente e robusta, com o leitor de tela NVDA.</p>
+				<Link to="/artigos/powershell">PowerShell</Link>
+			</div>
 
+<div>
+				<h2>Dicas TalkBack e Android</h2>
+				<p>Aprenda a utilizar ao máximo o TalkBack no Android para tornar sua experiência com dispositivos móveis mais acessível. Nesta playlist, você encontrará dicas e tutoriais para personalizar e otimizar o TalkBack para suas necessidades. <a href="https://www.youtube.com/watch?v=tEhtRjrKBQQ&list=PLUUzL2T6zbBZA7DLEqSUG53E5k0G-tCMY">Acesse a playlist completa aqui.</a></p>
+			</div>
 		</div>
 	);
 }
