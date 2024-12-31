@@ -5,21 +5,21 @@ function PowerShell() {
 			<p>Neste artigo, você aprenderá sobre o que é o PowerShell, como utilizá-lo com o leitor de tela NVDA, de forma
 				totalmente acessível, além dos seus primeiros comandos para dominar essa ferramenta.</p>
 
-				<div>
-  <h2 id="playlist-title">Conteúdo disponível em vídeo</h2>
-  <p>Você pode acessar o conteúdo desta página também através da playlist abaixo, disponível no YouTube.</p>
-  <iframe 
-    width="280" 
-    height="160" 
-    src="https://www.youtube.com/embed/videoseries?si=ZPTfoh4JazyNbOR3&amp;controls=0&amp;list=PLUUzL2T6zbBaL-Galmk4p16v4WqzJvhmn" 
-    title="Tutoriais Power Shell" 
-    frameborder="0" 
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-    referrerpolicy="strict-origin-when-cross-origin" 
-    allowfullscreen 
-    aria-labelledby="playlist-title">
-  </iframe>
-</div>
+			<div>
+				<h2 id="playlist-title">Conteúdo disponível em vídeo</h2>
+				<p>Você pode acessar o conteúdo desta página também através da playlist abaixo, disponível no YouTube.</p>
+				<iframe
+					width="280"
+					height="160"
+					src="https://www.youtube.com/embed/videoseries?si=ZPTfoh4JazyNbOR3&amp;controls=0&amp;list=PLUUzL2T6zbBaL-Galmk4p16v4WqzJvhmn"
+					title="Tutoriais Power Shell"
+					frameborder="0"
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+					referrerpolicy="strict-origin-when-cross-origin"
+					allowfullscreen
+					aria-labelledby="playlist-title">
+				</iframe>
+			</div>
 
 			<h2>Introdução</h2>
 			<p>Segundo a definição da própria <a href="https://learn.microsoft.com/pt-br/powershell/scripting/overview?view=powershell-7.3">Microsoft</a>,
@@ -56,7 +56,8 @@ function PowerShell() {
 				número de quebras de linhas e, consequentemente, menor número de interrupções na leitura ou necessidade de
 				interação na navegação.</p>
 			<p>Ao se abrir o PowerShell, as seguintes informações serão lidas:</p>
-			<p>“Windows PowerShell
+			<code>
+				Windows PowerShell
 				Copyright (C) Microsoft Corporation. Todos os direitos reservados.
 
 				Experimente a nova plataforma cruzada PowerShell https://aka.ms/pscore6
@@ -64,8 +65,8 @@ function PowerShell() {
 				Aviso: o PowerShell detectou que você talvez esteja usando um leitor de tela e tenha desabilitado o
 				PSReadLine para fins de compatibilidade. Se desejar reabilitá-lo, execute 'Import-Module PSReadLine'.
 				<br />
-			PS C:\Users\Windows10>”<br />
-			</p>
+			PS C:\Users\Windows10&gt;
+			</code>
 
 			<p>O primeiro bloco de texto apresenta as informações de inicialização do programa e, em especial, a última
 				linha lida se refere ao diretório atual, que é o padrão para o usuário ativo no Windows.</p>
@@ -99,9 +100,9 @@ function PowerShell() {
 			<p>O nome do comando é autoexplicativo. O “cd” é utilizado para acessar um diretório mediante inserção de seu
 				caminho ou nome, a partir do diretório atual.</p>
 			<p>Como exemplo, se eu estiver no diretório do meu usuário:</p>
-			<pre>PS C:\Users\Windows10></pre>
+			<pre>PS C:\Users\Windows10&gt;</pre>
 			<p>E utilizar o comando “cd documentos”, acessarei a minha pasta de documentos. O meu caminho atual será, então:</p>
-			<pre>PS C:\Users\Windows10\documentos></pre>
+			<pre>PS C:\Users\Windows10\documentos&gt;</pre>
 			<p>A partir desse ponto, qualquer comando inserido será atuante na pasta em que estou localizado, ou seja, na
 				pasta de documentos do meu usuário.</p>
 			<p>É preciso, entretanto, utilizar a nomenclatura correta da pasta em que quero me locomover. Caso contrário, um
