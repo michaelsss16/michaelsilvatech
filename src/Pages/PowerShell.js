@@ -9,10 +9,10 @@ function PowerShell() {
   <h2 id="playlist-title">Conteúdo disponível em vídeo</h2>
   <p>Você pode acessar o conteúdo desta página também através da playlist abaixo, disponível no YouTube.</p>
   <iframe 
-    width="560" 
-    height="315" 
+    width="280" 
+    height="160" 
     src="https://www.youtube.com/embed/videoseries?si=ZPTfoh4JazyNbOR3&amp;controls=0&amp;list=PLUUzL2T6zbBaL-Galmk4p16v4WqzJvhmn" 
-    title="Playlist de vídeos sobre o conteúdo do PowerShell" 
+    title="Tutoriais Power Shell" 
     frameborder="0" 
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
     referrerpolicy="strict-origin-when-cross-origin" 
