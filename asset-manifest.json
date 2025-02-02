@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/michaelsilvatech/static/css/main.f7337f05.css",
-    "main.js": "/michaelsilvatech/static/js/main.4cd05d03.js",
+    "main.js": "/michaelsilvatech/static/js/main.e9a09aec.js",
     "index.html": "/michaelsilvatech/index.html",
     "main.f7337f05.css.map": "/michaelsilvatech/static/css/main.f7337f05.css.map",
-    "main.4cd05d03.js.map": "/michaelsilvatech/static/js/main.4cd05d03.js.map"
+    "main.e9a09aec.js.map": "/michaelsilvatech/static/js/main.e9a09aec.js.map"
   },
   "entrypoints": [
     "static/css/main.f7337f05.css",
-    "static/js/main.4cd05d03.js"
+    "static/js/main.e9a09aec.js"
   ]
 }
