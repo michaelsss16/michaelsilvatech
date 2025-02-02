@@ -1,3 +1,39 @@
+import ClipBoard from "../components/ClipBoard.js"
+
+function Winget() {
+	return (
+		<article>
+			<h2>Comando winget</h2>
+			<p>O <strong>winget</strong> é uma ferramenta de linha de comando do Windows que permite instalar, atualizar e gerenciar pacotes de aplicativos diretamente do terminal.</p>
+
+			<h3 id="verificar-instalacao">Como verificar se o winget está instalado ou fazer a instalação</h3>
+			<p>Para verificar se o <strong>winget</strong> está instalado no seu sistema, execute o seguinte comando:</p>
+			<pre><ClipBoard>winget --version</ClipBoard></pre>
+			<p>Se o comando retornar a versão do <strong>winget</strong>, significa que ele está instalado. Caso contrário, você pode instalá-lo através da Microsoft Store, atualizando o <strong>App Installer</strong>.</p>
+
+			<h3 id="instalar-programa">Como instalar um novo programa com o winget</h3>
+			<p>Para instalar um novo programa, utilize o seguinte comando:</p>
+			<pre><ClipBoard>winget install nome-do-programa</ClipBoard></pre>
+			<p>Substitua <em>nome-do-programa</em> pelo nome do aplicativo desejado. Por exemplo, para instalar o navegador Firefox:</p>
+			<pre>winget install Mozilla.Firefox</pre>
+			<p>Se você não souber o nome exato do programa, pode usar o comando <strong>winget search</strong> para procurar o nome ou o ID do aplicativo. Exemplo:</p>
+			<pre><ClipBoard>winget search Firefox</ClipBoard></pre>
+			<p>O comando acima vai listar as opções disponíveis, incluindo o nome e o ID. Ambos podem ser usados para a instalação, como:</p>
+			<pre>winget install Mozilla.Firefox</pre>
+			<p>Ou, se preferir usar o ID encontrado:</p>
+			<pre><ClipBoard>winget install &#123;ID-do-programa&#125;</ClipBoard></pre>
+
+			<p>O <strong>winget</strong> buscará automaticamente a versão mais recente disponível e instalará o aplicativo.</p>
+
+			<h3 id="atualizar-aplicativos">Como atualizar todos os aplicativos com o winget</h3>
+			<p>Para atualizar todos os aplicativos instalados via <strong>winget</strong>, basta executar o comando:</p>
+			<pre><ClipBoard>winget upgrade --all</ClipBoard></pre>
+			<p>Isso verificará se há atualizações disponíveis para os aplicativos gerenciados pelo <strong>winget</strong> e as aplicará automaticamente.</p>
+			<p>Para não precisar de aceitar cada nova atualização, basta executar o PowerShell em modo administrador. Basta buscar pelo aplicativo, clicar no botão de menu de opções no teclado e selecionar executar como administrador. </p>
+		</article>
+	);
+}
+
 function PowerShell() {
 	return (
 		<article>
@@ -65,7 +101,7 @@ function PowerShell() {
 				Aviso: o PowerShell detectou que você talvez esteja usando um leitor de tela e tenha desabilitado o
 				PSReadLine para fins de compatibilidade. Se desejar reabilitá-lo, execute 'Import-Module PSReadLine'.
 				<br />
-			PS C:\Users\Windows10&gt;
+				PS C:\Users\Windows10&gt;
 			</code>
 
 			<p>O primeiro bloco de texto apresenta as informações de inicialização do programa e, em especial, a última
@@ -145,6 +181,8 @@ function PowerShell() {
 			<p>Nos locomovemos para o final da seleção desejada e pressionamos o comando NVDA + F9, sendo que a tecla F9
 				para o término da seleção pode ser reconfigurada de acordo com as preferências do usuário.</p>
 
+			<Winget></Winget>
+
 			<h2>Conclusão</h2>
 			<p>Ao longo desse capítulo, vimos os passos essenciais para a utilização do PowerShell com NVDA. Muitos outros
 				comandos e funcionalidades do programa estão à disposição do usuário e serão apresentados em um segundo
@@ -152,5 +190,7 @@ function PowerShell() {
 		</article>
 	);
 }
+
+
 
 export default PowerShell;
