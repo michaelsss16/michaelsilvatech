@@ -14,15 +14,15 @@ export default function App() {
 						<Link to="/michaelsilvatech">Página Inicial</Link>
 					</li>
 					<li>
-						<Link to="/artigos">Artigos</Link>
+						<Link to="/michaelsilvatech/artigos">Artigos</Link>
 					</li>
 				</ul>
 			</nav>
 
 			<Routes>
 				<Route path="/michaelsilvatech" element={<PaginaInicial />} />
-				<Route path="/artigos" element={<Artigos />} />
-				<Route path="/artigos/powershell" element={<PowerShell />} />
+				<Route path="/michaelsilvatech/artigos" element={<Artigos />} />
+				<Route path="/michaelsilvatech/artigos/powershell" element={<PowerShell />} />
 			</Routes>
 		</BrowserRouter>
 	);

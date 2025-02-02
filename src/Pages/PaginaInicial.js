@@ -13,11 +13,11 @@ function PaginaInicial() {
 				acessibilidade digital para tornar o aprendizado mais inclusivo e eficaz.
 			</p>
 
-			<h1><Link to="/artigos">Artigos recentes</Link></h1>
+			<h1><Link to="/michaelsilvatech/artigos">Artigos recentes</Link></h1>
 			<div>
 				<h2> Power Shell</h2>
 				<p>Aprenda a trabalhar com o Windows Power Shell para tornar a programação mais eficiente e robusta, com o leitor de tela NVDA.</p>
-				<Link to="/artigos/powershell">PowerShell</Link>
+				<Link to="/michaelsilvatech/artigos/powershell">PowerShell</Link>
 			</div>
 
 			<div>
