@@ -1,5 +1,6 @@
 # Tarefas de desenvolvimento 
 
+- Resolver problema ao recarregar página 
 -  Adição de página de erro not found  com redirecionamento para página inicial 
 -    Adicionar e configurar barra de navegação 
 -   Rotas em componente separado 
