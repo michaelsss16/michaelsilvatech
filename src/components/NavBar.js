@@ -1,19 +1,37 @@
+import { AppBar, Toolbar, Button, Typography } from "@mui/material";
 import { Link } from "react-router-dom";
 import Constantes from "../Util/Constantes.js";
 
-function NavBar()
-{
-    return (			
-    <nav className="navbar navbar-light">
-        <ul className="nav navbar-nav">
-            <li>
-                <Link to="/">Página Inicial</Link>
-            </li>
-            <li>
-            <Link to={`${Constantes.RotaArtigos}`}>Artigos</Link>
-            </li>
-        </ul>
-    </nav>)
+function NavBar() {
+  return (
+    <AppBar position="static" component="nav" aria-label="Barra de navegação">
+      <Toolbar>
+        <Typography 
+          variant="h6" 
+          sx={{ flexGrow: 1 }} 
+          aria-label="Michael Silva Tech"
+        >
+          Michael Silva Tech
+        </Typography>
+        <Button 
+          color="inherit" 
+          component={Link} 
+          to="/" 
+          aria-label="Ir para a página inicial"
+        >
+          Página Inicial
+        </Button>
+        <Button 
+          color="inherit" 
+          component={Link} 
+          to={Constantes.RotaArtigos} 
+          aria-label="Ir para a seção de artigos"
+        >
+          Artigos
+        </Button>
+      </Toolbar>
+    </AppBar>
+  );
 }
 
-export default NavBar; 
+export default NavBar;
