@@ -1,4 +1,4 @@
-# Documentação - Projeto Curso de canto 
+# Michael Silva Tech 
 
 ## Objetivo 
 Destina-se a apresentar todos os conteúdos, e adicionais, do canal Michael Silva Tech. Contém artigos sobre acessibilidade, tecnologia e programação. 

@@ -29,6 +29,14 @@ function NavBar() {
         >
           Artigos
         </Button>
+        <Button 
+          color="inherit" 
+          component={Link} 
+          to={Constantes.RotaSobre} 
+          aria-label="Ir para sobre"
+        >
+          Sobre
+        </Button>
       </Toolbar>
     </AppBar>
   );
